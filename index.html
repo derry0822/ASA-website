@@ -3,38 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <title>Arab Student Association At Cornell</title>
-  <link rel="stylesheet" type="text/css" href="Styles/all.css" media="all">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <!-- Auxilliary Stylesheets -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="styles/style.css" media="all">
 </head>
 <body>
-
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="photos.html">Photos</a></li>
-      <li><a href="eboard.html">E-Board</a></li>
-      <li><a href="events.html">Events</a></li>
-    </ul>
-  </nav>
-
-  <h1>Arab Student Association At Cornell</h1>
-
-
-  <h2>About us</h2>
-  <div class="intro">
-    <p> The purpose of Arab Student Association at Cornell University is to create
-      a forum for individuals interested in Arab language, culture, or politics
-      to meet and build community.</p>
-      <div class="pair">
-        <p>
-          <img src="logo.jpg" alt="logo" class="logo">
+  <div id="nav">
+    <img src="images/logo.png" alt="logo" id="logo">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        <li><a href="eboard.html">E-Board</a></li>
+        <li><a href="events.html">Events</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="body">
+    <div id="header">
+      <h1>Arab Student Association At Cornell</h1>
+    </div>
+    <div id="about">
+      <div class="left-info">
+        <h2>About us</h2>
+        <p> The purpose of Arab Student Association at Cornell University is to create
+            a forum for individuals interested in Arab language, culture, or politics
+            to meet and build community.
         </p>
         <p>Those individuals will then have the opportunity to increase awareness
-          of pertinent issues in the Arab world both on the Cornell campus and
-          in the larger Ithaca community. The ASA is an apolitical, non-partisan
-          student organization. There will be no association with or bias towards
-          regional Arab political, religious, and ideological entities.</p>
-        </div>
+            of pertinent issues in the Arab world both on the Cornell campus and
+            in the larger Ithaca community. The ASA is an apolitical, non-partisan
+            student organization. There will be no association with or bias towards
+            regional Arab political, religious, and ideological entities.
+        </p>
       </div>
-    </body>
-
-    </html>
+      <img src="images/about.jpg" alt="group">
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="scripts/smooth-scroll.min.js" type="text/javascript"></script>
+  <script src="scripts/main.js" type="text/javascript"></script>
+</body>
+</html>
