@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('../images/group.jpg') center center no-repeat fixed;
+  background: url('../images/burj.jpg') center center no-repeat fixed;
   background-size: cover;
 }
 
@@ -16,6 +16,7 @@ body {
   float: left;
   height: 125px;
   width: auto;
+  margin-left: 10px;
 }
 
 #nav nav {
