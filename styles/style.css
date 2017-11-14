@@ -75,8 +75,8 @@ body {
 #about {
   margin-top: 400px;
   width: 100%;
-  height: 400px;
-  background-color: #222222;
+  height: 450px;
+  background-color: rgba(20,20,20,0.9);
 }
 
 #about h2, p {
@@ -90,7 +90,7 @@ body {
 
 #about p {
   line-height: 1.5em;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .left-info {
@@ -103,12 +103,44 @@ body {
 
 #about img {
   position: relative;
-  top: 40px;
+  top: 65px;
   right: 75px;
   height: 300px;
   width: auto;
   float: right;
   border: 10px solid rgba(179,27,27,0.5)
+}
+
+#listserv {
+  background-color: rgba(255,255,255,0.8);
+  width: 100%;
+  min-height: 300px;
+  height: auto;
+  text-align: center;
+}
+
+#listserv h1 {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  font-size: 40px;
+  color: #B31B1B;
+  margin: 0;
+}
+
+#mail {
+  margin:0;
+}
+
+#mailinglist {
+  position: relative;
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 700px;
+  height: 60px;
+  color: #b31b1b;
+  font-size: 35px;
+  padding: .15rem 1rem;
+  border: 2px solid rgba(9,44,121,.15);
 }
 
 /*EBoard Styling*/
@@ -140,6 +172,7 @@ body {
 .board p {
   line-height: 1.5em;
   font-size: 18px;
+  text-align: left;
 }
 
 /*Photos Styling*/

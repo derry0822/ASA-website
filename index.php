@@ -29,8 +29,17 @@
             student organization. There will be no association with or bias towards
             regional Arab political, religious, and ideological entities.
         </p>
+        <p> Our weekly meetings are on Fridays at 3:30pm. Locations subject to change
+            so join our mailing list to find out more!
+        </p>
       </div>
       <img src="images/about.jpg" alt="group">
+    </div>
+    <div id="listserv">
+      <h1> STAY UPDATED. JOIN OUR MAILING LIST! </h1>
+      <form id="mail">
+        <input type="email" id="mailinglist" placeholder="name@example.com">
+      </form>
     </div>
   </div>
   <!-- Scripts -->
