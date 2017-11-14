@@ -17,7 +17,8 @@
       <h2>Events</h2>
       <ul>
         <li>9/26/17: Social event</li>
-        <li>10/16/17: Weekly meeting</li>
+        <li>11/18/17: Weekly meeting</li>
+        <li>11/27/17: Weekly meeting</li>
       </ul>
     </div>
   </div>
