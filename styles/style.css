@@ -293,6 +293,25 @@ label {
   color: white;
 }
 
+/*Error Messages*/
+.errorContainer {
+  background-color: rgba(183,7,7,0.65);
+  color: white;
+  font-family: "Helvetica", sans-serif;
+  border: 1px #C90909 solid;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  display: block;
+  width: 250px;
+}
+
+.hiddenError {
+  display: none;
+}
+
 /*ThankYou Styling*/
 #thanks {
   position: relative;
