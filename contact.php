@@ -9,10 +9,6 @@
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
   <!-- Main Stylesheet -->
   <link rel="stylesheet" type="text/css" href="styles/style.css" media="all">
-  <!-- Load jQuery -->
-  <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
-  <!-- Load validation -->
-  <script src="scripts/main.js" type="text/javascript"></script>
 </head>
 <body>
   <div class="container" id="solid">
@@ -50,5 +46,11 @@
       </form>
     </div>
   </div>
+  <!-- Load jQuery -->
+  <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <!-- Load validation -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="scripts/smooth-scroll.min.js" type="text/javascript"></script>
+  <script src="scripts/main.js" type="text/javascript"></script>
 </body>
 </html>
