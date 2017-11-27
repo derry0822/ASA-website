@@ -1,3 +1,6 @@
+<?php
+$email=$_REQUEST["#email"];
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,6 +19,11 @@
     <div id="thanks">
       <h2>Thanks for contacting us!</h2>
     </div>
-  </div>
-</body>
-</html>
+    <div class="twoPar">
+      <p>Thank you for responding and joining our contact list. We will E-mail you
+        shortly at <?php echo($email);?> to inform you about upcoming events.</p>
+        <p>We really appreciate it!!</p>
+      </div>
+    </div>
+  </body>
+  </html>
