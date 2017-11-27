@@ -324,3 +324,10 @@ label {
   color: #B31B1B;
   font-size: 56px;
 }
+.twoPar p{
+  font-size: 140%;
+  line-height:150%;
+  text-align: left;
+  margin-left:10%;
+  margin-right:10%;
+}
