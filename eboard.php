@@ -52,7 +52,7 @@
       </div>
       <div class="board">
       <h3> Sara Tayara  </h3>
-        <a href="images/unknown.jpg" target="_blank"><img src="images/unknown.jpg" alt="?"></a>
+        <a href="images/unknown.jpg" target="_blank"><img class= "headshot" src="images/unknown.jpg" alt="?"></a>
           <h4>Secretary</h4>
           <p> Sara Tayara contributes to the Arabic Student Association as a Secretary.She is also a member of MECA.
           </p>
