@@ -36,7 +36,7 @@
     <div id="listserv">
       <h1> STAY UPDATED. JOIN OUR MAILING LIST! </h1>
       <form id="mail">
-        <input type="email" id="mailinglist" placeholder="name@example.com">
+        <input type="email" id="mailinglist" name="addtolistserv" placeholder="name@example.com">
         <div id="submit">
           <button type="submit" name="button">Submit</button>
         </div>
@@ -50,8 +50,7 @@
     $to      = 'dc784@cornell.edu';
     $subject = 'Hello';
     $message = 'Welcome to the Cornell ASA email list.';
-    $headers = "From: " . $_POST['button'] . "\r\n" .
-    "CC: ds869@cornell.edu";
+    $headers = "From: " . $_REQUEST['addtolistserv'];
 
     mail($to, $subject, $message,$headers);
 

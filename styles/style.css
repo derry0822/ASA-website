@@ -450,10 +450,68 @@ label {
   color: #B31B1B;
   font-size: 56px;
 }
+
 .twoPar p{
   font-size: 140%;
   line-height:150%;
   text-align: left;
   margin-left:10%;
   margin-right:10%;
+}
+
+#ask {
+  margin-left: 0;
+}
+
+#ask label {
+  width: 300px;
+}
+
+#ask div {
+  display: inline;
+  margin-left: 20px;
+}
+
+#ask input {
+  width: 70px;
+}
+
+#asking label {
+  margin-left: 10px;
+  width: 50px;
+}
+
+#question {
+  position: relative;
+  right: 7px;
+  margin-bottom: 20px;
+}
+
+#ask input:active,
+#ask input:focus,
+#ask input.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/*listserv.php styling*/
+#listservmsg {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  padding-top: 50px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+#listservmsg a {
+  color: #b31b1b;
+  text-decoration: none;
+}
+
+#listservmsg a:hover {
+  color: white;
+  text-decoration: underline;
 }
