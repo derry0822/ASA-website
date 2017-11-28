@@ -259,6 +259,12 @@ body {
 }
 
 /*Photo overlay styling*/
+.gallery {
+  min-width: 600px;
+  max-width: 1200px;
+  margin: auto;
+}
+
 .imcontainer {
   height: 365px;
   margin: auto;
