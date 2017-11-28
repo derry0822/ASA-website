@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Lato', sans-serif;
+  src: url("fonts/Lato/Lato-Regular.ttf");
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -254,8 +259,14 @@ body {
 #events li {
   margin-left: 150px;
   color: white;
+  font-size: 14px;
+  line-height: 1em;
+  max-width: 70vw;
+}
+
+#events h4 {
+  color: white;
   font-size: 30px;
-  line-height: 2em;
 }
 
 /*Contact Styling*/
