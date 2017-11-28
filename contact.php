@@ -46,11 +46,6 @@
       </form>
     </div>
   </div>
-  <!-- Load jQuery -->
-  <script src="scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
-  <!-- Load validation -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-  <script src="scripts/smooth-scroll.min.js" type="text/javascript"></script>
-  <script src="scripts/main.js" type="text/javascript"></script>
+  <?php include 'includes/scripts.php' ?>
 </body>
 </html>

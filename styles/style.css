@@ -135,12 +135,25 @@ body {
   position: relative;
   padding-top: 50px;
   margin: 0 auto;
-  width: 700px;
+  width: 600px;
   height: 60px;
   color: #b31b1b;
   font-size: 35px;
   padding: .15rem 1rem;
   border: 2px solid rgba(9,44,121,.15);
+}
+
+#submit {
+  display: inline;
+}
+
+#submit button {
+  position: relative;
+  left: 10px;
+  bottom: 3px;
+  height: 58px;
+  width: 130px;
+  font-size: 33px;
 }
 
 /*EBoard Styling*/
@@ -159,24 +172,49 @@ body {
   font-size: 56px;
 }
 
+.board {
+  height: 625px;
+}
+
 .board h3 {
   color: #B31B1B;
   font-size: 36px;
 }
 
-.board h4 {
+.description {
+  position: relative;
+  margin: 0 auto;
+  width: 450px;
+  bottom: 270px;
+  background-color: rgba(255,255,255,0.8);
+  min-height: 228px;
+  display: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.description h4 {
+  padding-top: 20px;
+  margin-bottom: 10px;
   color: #B31B1B;
   font-size: 26px;
 }
 
-.board p {
-  line-height: 1.5em;
-  font-size: 18px;
+.description p {
+  color: black;
+  line-height: 1.7em;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 16px;
   text-align: left;
+  padding-bottom: 0;
 }
+
 /*Photos of the eboard member class .headshot*/
-.headshot{
-  width: 400px;
+.headshot {
+  width: 450px;
+  height: 500px;
+  border: solid 5px rgba(179,27,27,0.7);
 }
 
 /*Photos Styling*/

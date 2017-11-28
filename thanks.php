@@ -22,8 +22,9 @@ $email=$_REQUEST["email"];
     <div class="twoPar">
       <p>Thank you for responding and joining our contact list. We will E-mail you
         shortly at <?php echo($email);?> to inform you about upcoming events.</p>
-        <p>We really appreciate it!!</p>
-      </div>
+      <p>We really appreciate it!!</p>
     </div>
-  </body>
-  </html>
+  </div>
+  <?php include 'includes/scripts.php' ?>
+</body>
+</html>
