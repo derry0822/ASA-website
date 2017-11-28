@@ -14,48 +14,56 @@
     <div id="eboard">
       <h2>E-Board</h2>
       <div class="board">
+        <!-- Info Taken from Facebook and LinkedIn. All information is public and links to fb photos were given by client-->
         <h3> Jad Rahbany </h3>
-        <a href="images/Jad.jpg" target="_blank"><img class="headshot" src="images/Jad.jpg" alt="?"></a>
+        <img class="headshot" src="images/Jad.jpg" alt="jad">
+        <div class="description">
           <h4>Co-President</h4>
-          <!-- Info Taken from Facebook and LinkedIn. All information is public and links to fb photos were given by client-->
           <p> Jad Rahbany is a Senior computer science major in the College of
             Engineering. He has a business minor and strives to work on products that have an impact in the world.
             Jad is originally from Lebanon and serves as the native Arabic speaker in the language house on west
             campus.
-
-            Feel free to reach out at jr978@cornell.edu to start a conversation.
           </p>
+        </div>
       </div>
       <div class="board">
         <h3> Hannah Rashda </h3>
-        <a href="images/hanna.jpg" target="_blank"><img class= "headshot" src="images/hanna.jpg" alt="?"></a>
+        <img class= "headshot" src="images/hanna.jpg" alt="hanna">
+        <div class="description">
           <h4>Co-President</h4>
-          <p> Hannah Rashdan is from Texas and is also a member of Kappa Alpha Theta.In her free time she enjoys traveling.
+          <p> Hannah Rashdan is from Texas and is also a member of Kappa Alpha Theta. In her free time she enjoys traveling.
           </p>
+        </div>
       </div>
       <div class="board">
         <h3> Mazen Ibrahim  </h3>
-        <a href="images/mazen.jpg" target="_blank"><img class="headshot" src="images/mazen.jpg" alt="?"></a>
+        <img class="headshot" src="images/mazen.jpg" alt="mazen">
+        <div class="description">
           <h4>Treasurer</h4>
           <p> Mazen Ibrahim is Computer Science major who is originally from Egypt but currently lives in New Jersey.
-
           </p>
+        </div>
       </div>
       <div class="board">
       <h3> Yasmeen Mahayni </h3>
-        <a href="images/yasmeen.jpg" target="_blank"><img class="headshot" src="images/yasmeen.jpg" alt="?"></a>
+        <img class="headshot" src="images/yasmeen.jpg" alt="yasmeen">
+        <div class="description">
           <h4>Philanthropy</h4>
           <p> Yasmeen Mahayni is a senior studying hospitality administration and management. She speaks Arabic, French, and English.
           </p>
+        </div>
       </div>
       <div class="board">
       <h3> Sara Tayara  </h3>
-        <a href="images/unknown.jpg" target="_blank"><img class= "headshot" src="images/unknown.jpg" alt="?"></a>
+        <img class= "headshot" src="images/sara.jpg" alt="sara">
+        <div class="description">
           <h4>Secretary</h4>
-          <p> Sara Tayara contributes to the Arabic Student Association as a Secretary.She is also a member of MECA.
+          <p> Sara Tayara contributes to the Arabic Student Association as a Secretary. She is also a member of MECA.
           </p>
+        </div>
       </div>
     </div>
   </div>
+  <?php include 'includes/scripts.php' ?>
 </body>
 </html>

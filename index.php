@@ -37,12 +37,13 @@
       <h1> STAY UPDATED. JOIN OUR MAILING LIST! </h1>
       <form id="mail">
         <input type="email" id="mailinglist" placeholder="name@example.com">
-        <div class="button">
-          <button type="submit" name="button">Send</button>
+        <div id="submit">
+          <button type="submit" name="button">Submit</button>
         </div>
       </form>
     </div>
   </div>
+  <!-- Add to listserv -->
   <?php
 
   if(isset($_POST['button'])){
@@ -58,10 +59,7 @@
   }
 
   ?>
-  <!-- Scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-  <script src="scripts/smooth-scroll.min.js" type="text/javascript"></script>
-  <script src="scripts/main.js" type="text/javascript"></script>
+
+  <?php include 'includes/scripts.php' ?>
 </body>
 </html>
