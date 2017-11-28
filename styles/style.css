@@ -213,10 +213,25 @@ body {
   font-size: 16px;
   text-align: left;
   padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.description a {
+  color: black;
+  text-decoration: none;
+}
+
+.description a:hover {
+  color: #b31b1b;
 }
 
 /*Photos of the eboard member class .headshot*/
 .headshot {
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+.headshot img {
   width: 450px;
   height: 500px;
   border: solid 5px rgba(179,27,27,0.7);
@@ -303,7 +318,7 @@ body {
   color: white;
   font-size: 14px;
   line-height: 1em;
-  max-width: 70
+  max-width: 900px;
 }
 
 #events h4 {
@@ -315,7 +330,6 @@ body {
 #contact {
   position: relative;
   height: auto;
-  padding-bottom: 50px;
 }
 
 #contact h2 {
@@ -324,9 +338,24 @@ body {
   font-size: 56px;
 }
 
+#notes {
+  margin-left: 200px;
+  margin-bottom: 100px;
+  font-size: 20px;
+}
+
+#notes a {
+  color: #b31b1b;
+  text-decoration: none;
+}
+
+#notes a:hover {
+  color: white;
+}
+
 form {
   margin-left: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 form div + div {
