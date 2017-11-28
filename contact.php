@@ -42,6 +42,11 @@
           <button type="submit">Send</button>
         </div>
       </form>
+      <div id="notes">
+        <p> If you would like to write your own email, you may contact us at:
+          <a href="mailto:asacornell@gmail.com">asacornell@gmail.com</a>.</p>
+        <p> If you would like to contact an E-Board member individually, their contacts may be found on the E-Board page.</p>
+      </div>
     </div>
   </div>
   <?php include 'includes/scripts.php' ?>
