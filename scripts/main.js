@@ -57,3 +57,5 @@ var main = function(){
 
 
 $(document).ready(main);
+
+//CREDITS: smooth-scroll library from https://github.com/cferdinandi/smooth-scroll
