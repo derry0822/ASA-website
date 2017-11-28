@@ -18,8 +18,8 @@ $email=$_REQUEST["email"];
       <h2>Thanks for contacting us!</h2>
     </div>
     <div class="twoPar">
-      <p>Thank you for responding and joining our contact list. We will E-mail you
-        shortly at <?php echo($email);?> to inform you about upcoming events.</p>
+      <p>Thank you for messaging us. We will E-mail you a response
+        as soon as possible at <?php echo($email);?>.</p>
       <p>We really appreciate it!!</p>
     </div>
   </div>
