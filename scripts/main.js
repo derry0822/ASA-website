@@ -1,6 +1,6 @@
 var main = function(){
   // Animations
-  var scroll = new SmoothScroll('a[href*="#"]', {
+  var scroll = new SmoothScroll('a[href="index.php#about"]', {
     speed: 1000,
     offset: 0
   });
