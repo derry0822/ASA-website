@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Lato', sans-serif;
-  src: url("fonts/Lato/Lato-Regular.ttf");
+  src: url("fonts/Lato/Lato-Regular.ttf"), url("fonts/Lato/Lato-Black.ttf"), url("fonts/Lato/Lato-Bold.ttf"), url("fonts/Lato/Lato-Light.ttf");
 }
 
 body {
@@ -213,10 +213,25 @@ body {
   font-size: 16px;
   text-align: left;
   padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.description a {
+  color: black;
+  text-decoration: none;
+}
+
+.description a:hover {
+  color: #B31B1B;
 }
 
 /*Photos of the eboard member class .headshot*/
 .headshot {
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+.headshot img {
   width: 450px;
   height: 500px;
   border: solid 5px rgba(179,27,27,0.7);

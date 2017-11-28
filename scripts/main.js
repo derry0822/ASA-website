@@ -7,19 +7,10 @@ var main = function(){
   $('#header h1').show('fade', 2000);
 
   $('.headshot').hover(function() {
-    if(this == '.description') {
-      $(this).fadeIn(500);
-    }
-    else {
-      $(this).parent().find('.description').stop(true,true).fadeIn(500);
-    };
+    console.log(this);
+    $(this).children('.description').stop(true,true).fadeIn(500);
   }, function() {
-    if(this == '.description') {
-      $(this).fadeOut(500);
-    }
-    else {
-      $(this).parent().find('.description').fadeOut(500);
-    };
+    $(this).children('.description').stop(true,true).fadeOut(500);
   });
 
   // Form Validation
