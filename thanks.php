@@ -6,8 +6,6 @@ $email=$_REQUEST["email"];
 <head>
   <meta charset="UTF-8">
   <title>Arab Student Association At Cornell</title>
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <!-- Auxilliary Stylesheets -->
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
   <!-- Main Stylesheet -->

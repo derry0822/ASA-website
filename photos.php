@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Arab Student Association At Cornell</title>
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <!-- Auxilliary Stylesheets -->
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
   <!-- Main Stylesheet -->
@@ -16,18 +14,62 @@
     <div id="photos">
       <div class="gallery">
         <h2>Photos</h2>
-        <a href="images/pic1.jpg" target="_blank">
-        <img src="images/pic1.jpg" alt="fun"></a>
-        <a href="images/pic2.jpg" target="_blank">
-        <img src="images/pic2.jpg" alt="cook"></a>
-        <a href="images/pic3.jpg" target="_blank">
-        <img src="images/pic3.jpg" alt="party"></a>
-        <a href="images/pic4.jpg" target="_blank">
-        <img src="images/pic4.jpg" alt="social"></a>
-        <a href="images/pic5.jpg" target="_blank">
-        <img src="images/pic5.jpg" alt="food"></a>
-        <a href="images/pic6.jpg" target="_blank">
-        <img src="images/pic6.jpg" alt="party2"></a>
+
+          <div class="imcontainer">
+            <img src="images/pic1.jpg" alt="fun">
+            <div id="captP1" class="cap-overlay">
+              <div class="caption">
+                Members of the ASA catch up and mingle at the Fall 2017 Meet & Greet event in Duffield Atrium.<br/>
+              </div>
+            </div>
+          </div>
+
+          <div class="imcontainer">
+            <img src="images/pic2.jpg" alt="cook">
+            <div id="captP2" class="cap-overlay">
+              <div class="caption">
+                Members enjoyed making traditional bread for the Fall 2017 Mankoushe Night in Cook House on West Campus.<br/>
+              </div>
+            </div>
+          </div>
+
+          <div class="imcontainer">
+            <img src="images/pic3.jpg" alt="party">
+            <div id="captP3" class="cap-overlay">
+              <div class="caption">
+                Members enjoy the final product of their culinary activities at the Fall 2017 Mankoushe Night in Cook House on West Campus.<br/>
+              </div>
+            </div>
+          </div>
+
+          <div class="imcontainer">
+            <img src="images/pic4.jpg" alt="social">
+            <div id="captP4" class="cap-overlay">
+              <div class="caption">
+                Members of the ASA catch up and mingle at the Fall 2017 Meet & Greet event in the Duffield Atrium.<br/>
+              </div>
+            </div>
+          </div>
+
+          <div class="imcontainer">
+            <img src="images/pic5.jpg" alt="food">
+            <div id="capt5" class="cap-overlay">
+              <div class="caption">
+                The great spread of cultural and fun foods enjoyed at the Fall 2017 Meet & Greet event in the Duffield Atrium.<br/>
+              </div>
+            </div>
+          </div>
+
+          <div class="imcontainer">
+            <img src="images/pic6.jpg" alt="party2">
+            <div id="captP6" class="cap-overlay">
+              <div class="caption">
+                Members of the ASA cath up and mingle at the Fall 2017 Meet & Greet event in the Duffield Atrium.<br/>
+              </div>
+            </div>
+          </div>
+
+
       </div>
     </div>
   </div>
