@@ -97,9 +97,9 @@
         </div>
       </form>
       <div id="notes">
-        <p> If you would like to write your own email, you may contact us at:
-          <a href="mailto:asacornell@gmail.com">asacornell@gmail.com</a>.</p>
-        <p> If you would like to contact an E-Board member individually, their contacts may be found on the E-Board page.</p>
+        <p> You can also email us separately at:
+          <a href="mailto:asacornell@gmail.com" id="mailto">asacornell@gmail.com</a>.</p>
+        <p> If you would like to contact an individual E-Board member, you may find their contact on the <a href="eboard.php">E-Board</a> page.</p>
       </div>
     </div>
   </div>
