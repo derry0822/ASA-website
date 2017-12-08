@@ -188,6 +188,17 @@ body {
 .board h3 {
   color: #B31B1B;
   font-size: 36px;
+  line-height: 0;
+  margin-bottom: -5px;
+}
+
+.board h5 {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 0;
+  margin-bottom: 20px;
+  opacity: 0.8;
 }
 
 .description {
@@ -196,7 +207,7 @@ body {
   width: 450px;
   bottom: 270px;
   background-color: rgba(255,255,255,0.8);
-  min-height: 228px;
+  min-height: 227px;
   display: none;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -212,7 +223,7 @@ body {
 .description p {
   color: black;
   line-height: 1.7em;
-  padding-left: 5px;
+  padding-left: 8px;
   padding-right: 5px;
   font-size: 16px;
   text-align: left;
@@ -222,7 +233,8 @@ body {
 
 .description a {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: #b5b5b5;
 }
 
 .description a:hover {
@@ -313,8 +325,7 @@ body {
 /*Events Styling*/
 #events {
   position: relative;
-  height: auto;
-  padding-bottom: 50px;
+  height: 75vh;
 }
 
 #events h2 {
@@ -324,16 +335,20 @@ body {
 }
 
 #events li {
-  margin-left: 150px;
+  list-style: none;
+  margin: auto;
   color: white;
   font-size: 14px;
   line-height: 1em;
-  max-width: 900px;
+  max-width: 800px;
+  padding-right: 20px;
 }
 
 #events h4 {
   color: white;
   font-size: 30px;
+  margin-left: -20px;
+  margin-bottom: 15px;
 }
 
 /*Contact Styling*/
