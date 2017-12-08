@@ -64,7 +64,7 @@
           <img src="images/pic6.jpg" alt="party2">
           <div id="captP6" class="cap-overlay">
             <div class="caption">
-              Members of the ASA cath up and mingle at the Fall 2017 Meet & Greet event in the Duffield Atrium.<br/>
+              Members of the ASA catch up and mingle at the Fall 2017 Meet & Greet event in the Duffield Atrium.<br/>
             </div>
           </div>
         </div>
