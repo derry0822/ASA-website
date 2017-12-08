@@ -161,6 +161,10 @@ body {
   font-size: 33px;
 }
 
+#listError, #listErrorFill  {
+  margin-left: 273px;
+}
+
 /*EBoard Styling*/
 #eboard {
   position: relative;

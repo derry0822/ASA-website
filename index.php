@@ -34,11 +34,17 @@
       <img src="images/about.jpg" alt="group">
     </div>
     <div id="listserv">
-      <h1> STAY UPDATED. JOIN OUR MAILING LIST! </h1>
-      <form id="mail">
-        <input type="email" id="mailinglist" name="addtolistserv" placeholder="name@example.com">
+      <h1 id="update">STAY UPDATED, JOIN OUR MAILING LIST!</h1>
+      <form id="mail" novalidate>
+        <input type="email" id="mailinglist" name="addtolistserv" placeholder="name@example.com" required>
         <div id="submit">
           <button type="submit" name="button">Submit</button>
+        </div>
+        <div class="errorContainer hiddenError" id="listError">
+          Email Address is required.
+        </div>
+        <div class="errorContainer hiddenError" id="listErrorFill">
+          Not a valid Email Address.
         </div>
       </form>
     </div>

@@ -53,8 +53,29 @@ var main = function(){
     return formValid;
 
   });
-};
 
+  //Listserv Validation
+  $('#mail').on('submit', function() {
+    var servValid = true;
+
+    if($("#mailinglist").prop("validity").valueMissing) {
+      $("#listError").show();
+      servValid = false;
+    } else {
+      $("#listError").hide();
+    }
+
+    if($("#mailinglist").prop("validity").typeMismatch) {
+      $("#listErrorFill").show();
+      servValid = false;
+    } else {
+      $("#listErrorFill").hide();
+    }
+
+    return servValid;
+  });
+  
+};
 
 $(document).ready(main);
 
