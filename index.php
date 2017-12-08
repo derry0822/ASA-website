@@ -13,6 +13,7 @@
   <div id="body">
     <div id="header">
       <h1>Arab Student Association At Cornell</h1>
+      <img id="arrow" src="images/downarrow.png" alt="down arrow">
     </div>
     <div id="about">
       <div class="left-info">
